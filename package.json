@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-project_team",
+  "version": "1.0.0",
+  "description": "Team portfolio Project - Crypto Web-App",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannynow6/Team_Project_WebDev.git"
+  },
+  "author": "Danny, Randy, Russell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannynow6/Team_Project_WebDev/issues"
+  },
+  "homepage": "https://github.com/dannynow6/Team_Project_WebDev#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
