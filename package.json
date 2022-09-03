@@ -7,7 +7,7 @@
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
- },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dannynow6/Team_Project_WebDev.git"
