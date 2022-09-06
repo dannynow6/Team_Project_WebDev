@@ -9,7 +9,7 @@
 
 .header-content {
     font-size: 10px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .navbar {
@@ -35,4 +35,9 @@ body {
 .site-name:hover {
     color: black;
     text-decoration: none;
+}
+
+.nav-item:hover {
+    font-weight: 700px;
+    text-shadow: 0px 0px 0px black;
 }
