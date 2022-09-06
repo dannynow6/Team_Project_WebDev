@@ -9,23 +9,99 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <!--Custom CSS Styles & Google Fonts-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
     <!-- Font Suggestions? I like Roboto / Raleway / Nunito Sans / Rubik Distressed or Rubik Iso (could be useful for certain stuff) / -->
     <title>Crypto Genie</title>
 </head>
 
 <body>
+    <header>
+    <div class="container">
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row row-content align-items-center">
-
+        <!--Header Top Menu-->
+        <div class="row mt-3 text-center">
+            <div class="col">
+                <p class="header-content d-none d-md-inline">Market Cap: <span class="text-primary">$1,034,387,398,958.45</span></p>
+            </div>
+            <div class="col">
+                <p class="header-content d-none d-md-inline">24h Vol: <span class="text-primary">$69,034,387,398.45</span></p>
+            </div>
+            <div class="col">
+                <p class="header-content d-none d-md-inline">Dominance: <span class="text-primary">BTC: 39.7% | ETH 19.7%</span></p>
+            </div>
+            <div class="col">
+                <div class="btn-group" role="group" aria-label="login signup buttons">
+                    <button class="btn btn-outline-primary btn-sm">Login</button>
+                    <button class="btn btn-primary btn-sm">Sign&nbsp;Up</button>
+                </div>
             </div>
         </div>
 
+        <hr class="header-line">
+
+        <!--Navbar Menu-->
+        <nav class="navbar navbar-expand-lg">
+
+            <!--Logo and Name-->
+            <div class="col-5 col-md-2">
+                <a class="site-name" href="#"><h2>Coin&nbsp;Genie</h2></a>
+                <img src="images/coingenie.svg" alt="Coin Genie Logo" class="logo d-block">
+            </div>
+
+            <!--Navbar Toggler Icon-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img src="images/bars-solid.svg"></span>
+            </button>
+
+            <!--Navbar Links-->
+            <div class="col-lg-6">
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item mr-auto mr-lg-0">
+                            <a class="nav-link text-dark active" href="#">Cryptocurrencies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Exchanges</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Trading Tools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Learn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!--Navbar Search Box-->
+            <div class="d-none d-lg-inline col-lg-4">
+                <form class="d-none d-md-flex me-0">
+                        <input class="form-control form-control-sm" type="search" aria-label="Search">
+                        <button class="btn btn-primary btn-sm" type="submit">Search</button>
+                </form>
+            </div>
+
+        </nav>
+
+        <hr class="header-line">
+
+        <!--Header Top Menu-->
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <p class="header-content d-none d-md-inline"></e>Crypto Fear & Greed Index: <span class="text-primary">25 - Extreme Fear</span></p>
+            </div>
+            <div class="col-3">
+                <p class="header-content d-none d-md-inline">CBBI Confidence We're At Peak:<span class="text-primary"> 10 of 100</span></p>
+            </div>
+        </div>
+    </div>
     </header>
-
     <footer>
-
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
